@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Reech Enterprise" />
+  <title>Reech Enterprise - Connect Better!</title>
+  <link rel="shortcut icon" href="%PUBLIC_URL%/media/logos/favicon_io/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" id="layout-styles-anchor" href="%PUBLIC_URL%/splash-screen.css" />
+</head>
+
+<body id="body" class="page-loading splash-screen">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!--begin::Theme mode setup on page load-->
+  <script>
+    if (document.documentElement) {
+      var defaultThemeMode = "light";
+
+      var themeMode = localStorage.getItem("theme_mode_value");
+      if (!themeMode) {
+        if (defaultThemeMode === "light") {
+          themeMode =
+            window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        } else {
+          themeMode = defaultThemeMode;
+        }
+      }
+
+      document.documentElement.setAttribute("data-theme", themeMode);
+    }            
+  </script>
+  <!--end::Theme mode setup on page load-->
+
+  <div id="root" class="flex flex-col flex-1"></div>
+  <div id="splash-screen" class="splash-screen">
+    <img src="%PUBLIC_URL%/media/logos/reech-icon.png" alt="Reech logo" />
+    <span>Loading...</span>
+  </div>
+  <div id="root-modals"></div>
+</body>
+
+</html>
