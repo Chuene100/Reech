@@ -1,0 +1,133 @@
+name: Deploying to Google Cloud Run
+
+on:
+  push:
+    branches:
+    - main
+    - deployment/gcloud-run-pipeline
+    - staging
+
+env:
+  SERVICE_NAME: "reech-matching-engine-api"
+  REGION: "us-east1"
+  IMAGE_NAME: "reech-matching-engine-api"
+  GOOGLE_PROJECT_ID: ${{ secrets.GOOGLE_PROJECT_ID }}
+  GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+  MONGO_DATABASE_URL: ${{ secrets.MONGO_DATABASE_URL }}
+  DATABASE_LINK: ${{ secrets.MONGO_DATABASE_URL }}
+
+jobs:
+  unit-testing:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Update pip version
+      run: pip install --upgrade pip
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run tests
+      run: pytest matching_engine/testing
+
+  docker-image:
+    name: "Publish docker image to GCR"
+    needs: [unit-testing]
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Checkout"
+      uses: actions/checkout@v3
+    - run: echo "IMAGE=gcr.io/${{ env.GOOGLE_PROJECT_ID }}/${{ env.IMAGE_NAME }}:$GITHUB_SHA" >> $GITHUB_ENV
+
+      # authenticate the AIM admin service account to allow terraform to    
+      # create a new service account and give it the necessary previleges
+    - name: Authenticate the admin user account
+      uses: google-github-actions/auth@v0
+      with:
+        credentials_json: '${{ env.GOOGLE_SA_KEY }}'
+
+      # Setup gcloud CLI
+    - uses: google-github-actions/setup-gcloud@v1
+      with:
+        service_account_key: ${{ env.GOOGLE_SA_KEY }}
+        project_id: '${{ env.GOOGLE_PROJECT_ID }}'
+        export_default_credentials: true
+
+      # Configure Docker to use the gcloud command-line tool as a credential
+      # helper for authentication
+    - run: |-
+        gcloud --quiet auth configure-docker
+
+    # Build the Docker image
+    - name: "Docker Build"
+      run: |-
+        docker build --tag ${{ env.IMAGE }} \
+          --build-arg DATABASE_ARG='${{ env.MONGO_DATABASE_URL }}' \
+          --no-cache \
+          .
+    # Push the Docker image to Google Container Registry
+    - name: "Docker Push"
+      run: |-
+        docker push ${{ env.IMAGE }}
+
+  terraform:
+    name: 'Terraform'
+    needs: [docker-image]
+    runs-on: ubuntu-latest
+
+    # Use the Bash shell regardless whether the GitHub Actions runner is 
+    #ubuntu-latest, macos-latest, or windows-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v3
+    - run: echo "IMAGE=gcr.io/${{ env.GOOGLE_PROJECT_ID }}/${{ env.IMAGE_NAME }}:$GITHUB_SHA" >> $GITHUB_ENV
+
+      # authenticate the AIM admin service account to allow terraform to    
+      # create a new service account and give it the necessary previleges
+    - name: Authenticate the admin user account
+      uses: google-github-actions/auth@v0
+      with:
+        credentials_json: '${{ env.GOOGLE_SA_KEY }}'
+
+      # Install the latest version of Terraform CLI and configure the 
+      # Terraform CLI configuration file with a Terraform Cloud user API token
+    - name: Install/Setup Terraform
+      uses: hashicorp/setup-terraform@v1
+
+      # Initialize a new or existing Terraform working directory by creating 
+      # initial files, loading any remote state, downloading modules, etc.
+    - name: Terraform Init
+      working-directory: ./.terraform
+      run: terraform init
+
+      # Generate an execution plan for Terraform
+    - name: Terraform Plan
+      working-directory: ./.terraform
+      run: |-
+        terraform plan \
+          -var image=${{ env.IMAGE }} \
+          -var project=${{ env.GOOGLE_PROJECT_ID }} \
+          -var location=${{ env.REGION }} \
+          -input=false
+
+
+      # On push to main, build or change infrastructure according to Terraform configuration files
+      # Note: It is recommended to set up a required "strict" status check in your repository for 
+      # "Terraform Cloud". See the documentation on "strict" required status checks for more info:
+      # https://help.github.com/en/github/administering-a-repository/types-of-required-status-checks
+    - name: Terraform Apply
+      working-directory: ./.terraform
+      run: |-
+        terraform apply \
+          -var image=${{ env.IMAGE }} \
+          -var project=${{ env.GOOGLE_PROJECT_ID }} \
+          -var location=${{ env.REGION }} \
+          -input=false \
+          -auto-approve

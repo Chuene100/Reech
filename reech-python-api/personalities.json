@@ -1,0 +1,967 @@
+[
+    {
+      "name": "Imaginative",
+      "definition": "the ability to form mental images or concepts of things that are not present or have not been experienced.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Abstract thinking",
+      "definition": "This refers to an interest in theoretical and philosophical ideas and a curiosity about the workings of the world at a conceptual level.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "self-reflection",
+      "definition": "This is a trait of being introspective, reflecting on one's thoughts and actions, and seeking to understand oneself on a deeper level.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Contemplative",
+      "definition": "This involves being open to new perspectives and ideas and being willing to question and challenge one's own assumptions and beliefs.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Critical thinking",
+      "definition": "a heightened awareness and appreciation for the beauty and aesthetic qualities of the world.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Aesthetically oriented",
+      "definition": "a recognition and enjoyment of the aesthetic qualities of objects, nature, and human expression.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Eclectic tastes",
+      "definition": "This means valuing both the known and the unknown, and being open to exploring new things while still finding comfort in the familiar.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Subtlety sensitivity",
+      "definition": "a recognition and appreciation for the complexity and subtlety of the world.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Analytical intelligence",
+      "definition": "the ability to engage in complex and abstract thinking.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "creative ",
+      "definition": "the ability to produce original and innovative ideas, products, or solutions.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Inquisitiveness",
+      "definition": "a desire to learn more about oneself and others, and to explore the mysteries of human nature.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Emotional richness",
+      "definition": "a capacity for intense and profound emotional experiences.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Novelty-seeking",
+      "definition": "a curiosity and desire to explore new and unfamiliar territories.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "flexible",
+      "definition": "the ability to adapt to new situations, ideas, or experiences and change one's approach accordingly.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Ambiguity acceptance",
+      "definition": "refers to an individual's capacity to handle situations that are unclear, unpredictable, or complex without experiencing significant stress or discomfort.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Optimistic",
+      "definition": "a belief in the possibility of a better, more just, and more perfect world.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Self-determination",
+      "definition": "a tendency to think and act independently, rather than conforming to social norms or pressures.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Love of knowledge",
+      "definition": "a strong desire to learn and understand new ideas, concepts, and information.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Change-loving",
+      "definition": "a strong desire for diversity, newness, and stimulation.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Deviance",
+      "definition": "a tendency to resist or reject social norms and expectations.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Radical views",
+      "definition": "a tendency to hold unconventional or alternative beliefs and values.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Exploration",
+      "definition": "a desire for new and exciting experiences.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Acceptance",
+      "definition": "a willingness to consider and embrace different perspectives, beliefs, and values.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Experience-seeking",
+      "definition": "a willingness to explore and experience a wide range of emotions and feelings.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Original",
+      "definition": "the ability to come up with unique and unusual ideas, perspectives, or creations.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Thoughtfulness",
+      "definition": "a tendency to engage in philosophical inquiry and reflection.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Playful",
+      "definition": "a tendency to approach life with a sense of joy and playfulness.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Transcendentalism",
+      "definition": "a interest in exploring the nature of the self, consciousness, and the universe.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Nonconformity",
+      "definition": "a readiness to challenge established authority and beliefs.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Adventure-seeking",
+      "definition": "a readiness to explore new experiences and take risks.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "witty",
+      "definition": "a capacity for wit, humour, and irony",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "ambitious",
+      "definition": "having a strong desire to succeed and achieve your goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Systematic",
+      "definition": "using logic and analysis to solve problems and make decisions.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Diligence",
+      "definition": "being meticulous and thorough in your work and behaviour.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Quality-driven",
+      "definition": "placing a high value on the quality of your work.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Loyal",
+      "definition": "being committed to your work and the goals you set.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "consistant",
+      "definition": "being consistent in your actions and behaviour.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Firm",
+      "definition": "being able to make decisions quickly and confidently.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Precision",
+      "definition": "paying close attention to small details and nuances in your work.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Determined",
+      "definition": "persisting towards goals despite obstacles or setbacks.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Persistence",
+      "definition": "showing dedication and persistence in completing tasks.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Willpower",
+      "definition": "maintaining self-control and resisting temptations or distractions.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Organized",
+      "definition": "maintaining discipline and self-control in your actions and behaviour.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "efficiant",
+      "definition": "maximizing productivity while minimizing wasted time and resources.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Resourceful",
+      "definition": "being efficient in your work and using your time effectively.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Time optimization",
+      "definition": "managing your time efficiently to maximize productivity.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Virtuous",
+      "definition": "maintaining high ethical standards in your work and personal life.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Vision",
+      "definition": "anticipating and planning for potential challenges or obstacles.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Results-focused",
+      "definition": "having a strong focus on achieving specific goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Purposeful",
+      "definition": "being driven by specific goals and objectives.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Ambition",
+      "definition": "setting and achieving specific and measurable goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Tireless",
+      "definition": "being diligent and persistent in your work.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Enterprising",
+      "definition": "taking the lead and being proactive in achieving goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Meticulous",
+      "definition": "being systematic and structured in your approach to work.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Methodical thinking",
+      "definition": "following a systematic and organized approach to completing tasks.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Neat",
+      "definition": "keeping things in order and maintaining a sense of structure.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Attention to detail",
+      "definition": "having tendencies towards perfectionism in your work.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Determination",
+      "definition": "showing perseverance and determination in the face of challenges and obstacles.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "persistant",
+      "definition": "continuing to work towards goals despite challenges or obstacles.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Strategy",
+      "definition": "creating and following plans to achieve desired outcomes.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Initiative-taking",
+      "definition": "being proactive in identifying and addressing problems before they become bigger issues.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Timely",
+      "definition": "being punctual and on time for appointments and commitments.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "reliable",
+      "definition": "being reliable and consistent in meeting commitments and deadlines.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Inventive",
+      "definition": "being able to find solutions to problems and make the most of available resources.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "responsible",
+      "definition": "taking responsibility for your own actions and the outcomes that follow.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Self-guidance",
+      "definition": "being self-directed and self-motivated in achieving goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Self-reliance",
+      "definition": "having confidence in your own abilities to achieve goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Framework",
+      "definition": "creating and following routines and procedures.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "productivity-oriented",
+      "definition": "being focused on completing tasks and achieving goals.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "planning",
+      "definition": "effectively managing your time to achieve desired outcomes.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "Self-discipline",
+      "definition": "having the strength of will to overcome obstacles and challenges.",
+      "category": "Openness to Experience"
+    },
+    {
+      "name": "energetic",
+      "definition": "enjoying physical activity and being active.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Daring",
+      "definition": "seeking out new and exciting experiences and challenges.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "risk-taking",
+      "definition": "being open to and seeking out new and exciting experiences.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "non-aggressive communication",
+      "definition": "communicating in an assertive and direct manner.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "proactive communication style",
+      "definition": "being able to communicate assertively and clearly.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "strong leadership",
+      "definition": "being an assertive and effective leader in social and work situations.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "courageous",
+      "definition": "being bold and daring in taking risks and trying new things.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Fearlessness",
+      "definition": "having a personality that is bold and daring in taking on challenges and risks. Enthusiastic:",
+      "category": "Extraversion"
+    },
+    {
+      "name": "audacity",
+      "definition": "having the courage and confidence to take bold and decisive action.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "philanthropy",
+      "definition": "being generous and giving to others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "working together",
+      "definition": "enjoying working and collaborating with others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Self-confidence",
+      "definition": "having a strong sense of self-confidence and self-assurance.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "interpersonal confidence",
+      "definition": "feeling confident and comfortable in social situations and interactions.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "dominant",
+      "definition": "being comfortable taking charge and leading in various situations.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "empathetic",
+      "definition": "having a natural ability to connect with and understand others on an emotional level.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Dynamic",
+      "definition": "having high levels of energy and enthusiasm.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Attention-seeking",
+      "definition": "enjoying and seeking out attention and recognition from others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Passion",
+      "definition": "having a high level of enthusiasm and excitement for life and activities.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Thrill-seeking",
+      "definition": "seeking out excitement and new experiences.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Communicative",
+      "definition": "being able to express emotions and ideas effectively.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Articulate",
+      "definition": "communicating in an expressive and animated manner.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Outgoing demeanor",
+      "definition": "exhibiting behaviours that are typically associated with extraversion, such as being outgoing and sociable.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Charismatic leadership",
+      "definition": "being able to lead and inspire others effectively.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Sociable demeanor",
+      "definition": "expressing oneself in an extroverted and outgoing manner.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Warm",
+      "definition": "being friendly and approachable towards others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Affable",
+      "definition": "enjoying the company of others and being part of social groups.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "humorous",
+      "definition": "having a good sense of humour and ability to make others laugh.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "impulsive",
+      "definition": "being impulsive and acting on one's impulses and desires.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "impact",
+      "definition": "having the ability to influence and persuade others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "communication skills",
+      "definition": "possessing strong communication and social skills.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "loud",
+      "definition": "being loud and vocal in social situations.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "attractive personality",
+      "definition": "having a magnetic and attractive personality that draws others to you.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Positive",
+      "definition": "having a positive outlook on life and the future.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Gregarious",
+      "definition": "being outgoing and sociable in various situations.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Positive affect",
+      "definition": "having a positive and upbeat mood and outlook on life.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Pleasant emotions",
+      "definition": "experiencing and expressing positive emotions such as joy and happiness.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Positive attitude",
+      "definition": "having a positive and optimistic outlook on life and situations.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Friendly communication",
+      "definition": "communicating in a sociable and friendly manner.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Interest in people",
+      "definition": "having a strong interest in social activities and being comfortable in groups.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Dominance",
+      "definition": "enjoying social dominance and leadership roles in group settings.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Social vitality",
+      "definition": "possessing a high level of energy when interacting with others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Spontaneous",
+      "definition": "being spontaneous and impulsive in one's actions and decisions.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Interesting conversation",
+      "definition": "engaging in stimulating and interesting conversation.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Chatty behavior",
+      "definition": "engaging in talkative and outgoing behaviour.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Cooperative",
+      "definition": "enjoying working as part of a team and contributing to group efforts.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Liveliness",
+      "definition": "having a vibrant and lively personality that energizes those around you.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Lively",
+      "definition": "having a lively and dynamic personality that is engaging and attractive to others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "Affection",
+      "definition": "exhibiting warmth and kindness towards others.",
+      "category": "Extraversion"
+    },
+    {
+      "name": "flexibility",
+      "definition": "being able to adapt to new situations and environments.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "care",
+      "definition": "being compassionate towards others and showing concern for their welfare.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "conformity",
+      "definition": "being willing to comply with the requests and expectations of others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "mediation",
+      "definition": "seeking to avoid conflicts with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "negotiation",
+      "definition": "being able to resolve conflicts with others in a peaceful and constructive manner.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "agreeableness",
+      "definition": "being willing to work with others towards a common goal.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "sensitivity",
+      "definition": "feeling concern for the well-being of others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "compassionate listening",
+      "definition": "being able to listen to others with empathy and understanding.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "largesse",
+      "definition": " being willing to give of oneself to help others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "politeness",
+      "definition": "being gracious towards others, especially in difficult situations.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "peaceful interactions",
+      "definition": "seeking to maintain harmonious and positive interactions with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "unifying",
+      "definition": "seeking to maintain harmonious relationships with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "service",
+      "definition": "being willing to help others in need.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "humbleness",
+      "definition": "exhibiting humility and modesty in interactions with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "idealism",
+      "definition": "having a positive and optimistic outlook on life and interactions with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "conflict resolution",
+      "definition": "seeking to make peace and resolve conflicts with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "supportive behavior",
+      "definition": "engaging in behaviours that benefit others and society as a whole.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Respeadmiration",
+      "definition": "showing respect towards others, especially those in positions of authority or who are older.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "altruism",
+      "definition": "being willing to put the needs of others before one's own needs.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Heroism",
+      "definition": "being willing to sacrifice one's own needs for the benefit of others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Help",
+      "definition": "having a desire to serve others and contribute to the greater good.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Citizenship",
+      "definition": "being aware of one's social responsibility and taking actions to fulfil it.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Dependence",
+      "definition": "possessing a trusting nature towards others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Sincerity",
+      "definition": "being trustworthy and reliable in interactions with others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Awareness",
+      "definition": "seeking to understand others' perspectives and experiences.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Selflessness",
+      "definition": "exhibiting unselfish behaviour and putting the needs of others first.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "Cosiness",
+      "definition": "exhibiting warmth and friendliness towards others.",
+      "category": "Agreeableness"
+    },
+    {
+      "name": "worry",
+      "definition": "a tendency to feel anxious, nervous, and worried, often without a clear or specific cause",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "dodging",
+      "definition": "a tendency to avoid or withdraw from situations or people that are perceived as threatening, uncomfortable, or stressful",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "magnifying",
+      "definition": "tending to imagine the worst-case scenarios in situations.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "self-deprecation",
+      "definition": "a tendency to have a negative self-image and to doubt one's own abilities and worth.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "lability",
+      "definition": "a tendency to experience frequent and intense shifts in mood, ranging from sadness and despair to happiness and euphoria.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "over-analyzing",
+      "definition": "a tendency to ruminate or obsess over small details, problems, or mistakes, often leading to stress or anxiety",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "laughter",
+      "definition": "The ability to find amusement or enjoyment in situations and to make others laugh or feel happy.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "goodwill",
+      "definition": "The quality of being friendly, generous, and considerate towards others, often accompanied by a desire to help or support them.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "passion for education",
+      "definition": "A strong passion or desire to acquire knowledge and understanding, often characterized by curiosity, exploration, and a willingness to try new things.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "broad-mindedness",
+      "definition": "The quality of being receptive to new ideas, perspectives, and experiences, often characterized by a willingness to consider different viewpoints and to challenge one's own beliefs.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "social awareness",
+      "definition": "The ability to understand and navigate social situations and relationships, often characterized by empathy, communication skills, and the ability to read and interpret social cues.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "transcendence",
+      "definition": "A sense of connection to something greater than oneself, often characterized by a belief in a higher power, a sense of purpose or meaning, and a commitment to personal growth and development.",
+      "category": "Neuroticism"
+    },
+    {
+      "name": "development mindset",
+      "definition": "They have a growth mind-set and are committed to continually learning and improving in order to achieve their objectives.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "drive",
+      "definition": "They have a strong desire to succeed and achieve recognition for their accomplishments, and are willing to take on challenging tasks and projects in pursuit of their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "analytical thinking",
+      "definition": "They are skilled at analysing complex information and data, using their analytical skills to identify opportunities and develop effective strategies for achieving their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "receptive to feedback",
+      "definition": "They are receptive to feedback and criticism, using it as a tool to improve their performance and achieve their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "quality-oriented",
+      "definition": "They have a strong focus on quality, ensuring that their work meets the highest standards and exceeds expectations.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "genuineness",
+      "definition": "They are authentic and true to themselves, staying true to their values and principles while pursuing their objectives.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "tolerance for uncertainty",
+      "definition": "They are comfortable with ambiguity and able to navigate uncertain or complex situations with ease.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "concentration",
+      "definition": "They tend to be focused and disciplined, directing their efforts toward the attainment of their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "results-oriented",
+      "definition": "They are highly focused on achieving results, using their energy and drive to push towards their goals and measure their progress along the way.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "inspiration",
+      "definition": "They are highly motivated and driven to achieve their goals, using their need for achievement as a source of inspiration and energy.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "tolerance",
+      "definition": "They have patience and are willing to persevere over a longer period of time in pursuit of their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "self-starter",
+      "definition": "They are proactive in pursuing their goals, taking initiative and actively seeking out opportunities to advance their objectives.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "risk control",
+      "definition": "They are able to manage risk effectively, identifying potential risks and taking steps to mitigate them in order to achieve their objectives.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "self-drive",
+      "definition": "They have a strong internal drive to achieve their goals, and are not dependent on external rewards or incentives to motivate them.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "introspection",
+      "definition": "They are introspective and self-reflective, using self-assessment and self-evaluation as tools for improving their performance and achieving their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Action planning",
+      "definition": "Individuals with an internal locus of control tend to be more effective at setting and achieving their goals, as they believe that they have the power to influence outcomes through their own efforts and actions.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Resilience",
+      "definition": "Individuals with an internal locus of control tend to have greater mental toughness and resilience, as they believe that they have the power to overcome challenges through their own efforts and actions.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Receptiveness to feedback",
+      "definition": "Individuals with an internal locus of control tend to be more open to receiving feedback and criticism, as they believe that they have the power to learn and grow from these experiences.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "forward-thinking",
+      "definition": "Individuals with an internal locus of control tend to have a greater sense of control over their lives and circumstances, as they believe that they have the power to influence outcomes through their own actions and efforts.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Drive to compete",
+      "definition": "Risk-takers often possess a strong competitive drive, eager to succeed and outperform others.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Entrepreneurial spirit",
+      "definition": "Individuals with a higher propensity for risk-taking tend to be decisive, able to make quick and confident decisions.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "High pain threshold",
+      "definition": "Risk-takers often possess a high level of adaptability, able to adjust to changing circumstances and environments.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "relationship building",
+      "definition": "Individuals with a higher propensity for risk-taking tend to be more impulsive, often acting quickly without much forethought.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Engaging in self-reflection",
+      "definition": "Risk-takers tend to have a high level of self-confidence, believing in their own abilities and judgment.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Willing to learn",
+      "definition": "Risk-takers tend to have a higher tolerance for uncertainty and are willing to take on risks even if the outcome is uncertain.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Nimbleness",
+      "definition": "Individuals with a high level of innovativeness tend to be agile, able to respond quickly and effectively to changes in the environment or market.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Expressiveness",
+      "definition": "Innovators often possess strong communication skills, able to articulate their ideas and persuade others to support their vision.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Judgment",
+      "definition": "People with high self-efficacy tend to be effective decision-makers, able to make decisions quickly and confidently based on available information.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Enablement",
+      "definition": "Innovators often possess a strong sense of empowerment, believing in their ability to make a positive difference in the world and feeling empowered to take action towards that end.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Holistic thinking",
+      "definition": "Innovators often exhibit a strong sense of intellectual curiosity, seeking out new knowledge and understanding in order to fuel their innovative ideas.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Direction",
+      "definition": "Innovators often possess strong intuition, able to trust their gut instincts and make decisions based on their inner sense of what will work.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Non-traditional thinking",
+      "definition": "People with high self-efficacy tend to be highly motivated, driven by a strong sense of purpose and a desire to achieve their goals.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Grit",
+      "definition": "People with high self-efficacy tend to be perseverant, willing to stick with tasks or projects even when progress is slow or setbacks occur.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "Big picture thinking",
+      "definition": "Innovators often possess strong systems thinking skills, able to understand and analyse complex systems and identify leverage points for change.",
+      "category": "Need for achievement"
+    },
+    {
+      "name": "self reflector",
+      "definition": "Individuals with high self-efficacy tend to engage in self-reflection, examining their beliefs and behaviours and making changes as needed to improve their performance.",
+      "category": "Need for achievement"
+    }
+  ]

@@ -1,0 +1,86 @@
+{
+  "cli": {
+    "version": ">=4.1.2",
+    "requireCommit": true
+  },
+  "build": {
+    "development": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "credentialsSource": "local",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "REACT_APP_API_URL": "https://www.reecheble.tech",
+        "BASE_URL": "/reech-main-api",
+        "MAIN_API_BASE_PATH": "/reech-main-api",
+        "ANALYTICS_API_BASE_PATH": "/reech-analytics-api",
+        "MATCHING_ENGINE_BASE_PATH": "/matching-engine",
+        "PAYMENTS_API_BASE_PATH": "/reech-payments-api",
+        "SvcTkn_Main_API": "reecheble-inc4dd80ed23d4244e99e08e3a5bea43d9f",
+        "SvcTkn_ML_API_KEY": "reecheble-inc259f1e0401554653ad0e499f07ee2822",
+        "SvcTkn_Analytics_API_KEY": "reecheble-inca3dcc3039c9e40ea8d12a46875bca26e",
+        "SvcTkn_Payments_API_KEY": "reecheble-inc298554a7010b4135ab13d8b92edbe17a",
+        "GOOGLE_PLACES_API_KEY": "AIzaSyD2GXRgeOSNpX7fnapvysE_IsIQRXcc2z4",
+        "EXPO_CLIENT_ID": "439749426933-7umg4lbaq1qgd8b94d1dtp2as4tplutf.apps.googleusercontent.com",
+        "SENTRY_AUTH_TOKEN": "6ed47fff6abda6dca0c32cc6ab3f49e836a24cf7605b2766aa0ee465cafd56b6",
+        "NODE_ENV": "production"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "credentialsSource": "local",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "REACT_APP_API_URL": "https://www.reecheble.tech",
+        "BASE_URL": "/reech-main-api",
+        "MAIN_API_BASE_PATH": "/reech-main-api",
+        "ANALYTICS_API_BASE_PATH": "/reech-analytics-api",
+        "MATCHING_ENGINE_BASE_PATH": "/matching-engine",
+        "PAYMENTS_API_BASE_PATH": "/reech-payments-api",
+        "SvcTkn_Main_API": "reecheble-inc4dd80ed23d4244e99e08e3a5bea43d9f",
+        "SvcTkn_ML_API_KEY": "reecheble-inc259f1e0401554653ad0e499f07ee2822",
+        "SvcTkn_Analytics_API_KEY": "reecheble-inca3dcc3039c9e40ea8d12a46875bca26e",
+        "SvcTkn_Payments_API_KEY": "reecheble-inc298554a7010b4135ab13d8b92edbe17a",
+        "GOOGLE_PLACES_API_KEY": "AIzaSyD2GXRgeOSNpX7fnapvysE_IsIQRXcc2z4",
+        "EXPO_CLIENT_ID": "439749426933-7umg4lbaq1qgd8b94d1dtp2as4tplutf.apps.googleusercontent.com",
+        "SENTRY_AUTH_TOKEN": "6ed47fff6abda6dca0c32cc6ab3f49e836a24cf7605b2766aa0ee465cafd56b6",
+        "NODE_ENV": "production"
+      },
+      "channel": "preview"
+    },
+    "production":{
+      "credentialsSource": "local",
+      "env": {
+        "REACT_APP_API_URL": "https://www.reecheble.tech",
+        "BASE_URL": "/reech-main-api",
+        "MAIN_API_BASE_PATH": "/reech-main-api",
+        "ANALYTICS_API_BASE_PATH": "/reech-analytics-api",
+        "MATCHING_ENGINE_BASE_PATH": "/matching-engine",
+        "PAYMENTS_API_BASE_PATH": "/reech-payments-api",
+        "SvcTkn_Main_API": "reecheble-inc4dd80ed23d4244e99e08e3a5bea43d9f",
+        "SvcTkn_ML_API_KEY": "reecheble-inc259f1e0401554653ad0e499f07ee2822",
+        "SvcTkn_Analytics_API_KEY": "reecheble-inca3dcc3039c9e40ea8d12a46875bca26e",
+        "SvcTkn_Payments_API_KEY": "reecheble-inc298554a7010b4135ab13d8b92edbe17a",
+        "GOOGLE_PLACES_API_KEY": "AIzaSyD2GXRgeOSNpX7fnapvysE_IsIQRXcc2z4",
+        "EXPO_CLIENT_ID": "439749426933-7umg4lbaq1qgd8b94d1dtp2as4tplutf.apps.googleusercontent.com",
+        "SENTRY_AUTH_TOKEN":"6ed47fff6abda6dca0c32cc6ab3f49e836a24cf7605b2766aa0ee465cafd56b6",
+        "NODE_ENV": "production"
+      },
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "keystores/quick-platform-327713-service-key.json",
+        "track": "internal"
+      }
+    }
+  }
+}

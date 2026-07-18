@@ -1,0 +1,286 @@
+import React from "react";
+import { StyleSheet, View, Text, Platform, TextInput, Pressable } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+import { useForm } from "react-hook-form";
+import { FontAwesome, FontAwesome5, MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
+import { LinearGradient } from "expo-linear-gradient";
+
+//import customs
+import { COLORS } from "../../../../constants";
+import { CustomLocationBubble, CustomSlider } from "../../../../components";
+import NavHeader from "@/components/Headers/NavHeader";
+
+const BubbleMateFilterScreen = () => {
+  const navigation = useNavigation();
+
+  const { control, handleSubmit, value } = useForm();
+
+  const onUpdateFilterPress = () => {
+    navigation.navigate("BubbleMateListScreen");
+  };
+
+  //filter data according to the username
+  const searchBusiness = (text) => {
+    console.log(text);
+  };
+
+  //header section
+  function renderHeaderSection() {
+    return (
+      <View style={styles.contentContainerFilter}>
+        <NavHeader message="What would you like to do?" />
+        <View style={styles.content}>
+          <View style={styles.headingContainer}>
+            <Text style={styles.headingText}>Filters</Text>
+          </View>
+        </View>
+      </View>
+    );
+  }
+
+  function renderFormCollection() {
+    return (
+      <View style={styles.formContainer}>
+        <View style={styles.formContent}>
+          {/*region section*/}
+          <View style={styles.formRegionContainer}>
+            <Text style={styles.regionText}>
+              <FontAwesome5
+                name="map-marked-alt"
+                size={16}
+                color={COLORS.white}
+              />{" "}
+              Region
+            </Text>
+            <View style={styles.regionSearchInput}>
+              <CustomLocationBubble
+                name="currentLocation"
+                control={control}
+                rules={{ required: "Please enter your location details" }}
+                placeholder="Street, State, Country"
+              />
+            </View>
+          </View>
+
+          {/*distance section*/}
+          <View style={styles.formDistanceContainer}>
+            <Text style={styles.distanceText}>
+              <MaterialCommunityIcons
+                name="map-marker-distance"
+                size={18}
+                color={COLORS.white}
+              />{" "}
+              Distance
+            </Text>
+
+            <View style={styles.distanceSearchInput}>
+              <CustomSlider name="distance" control={control} />
+            </View>
+          </View>
+
+          {/*categories section*/}
+          <View style={styles.formCategoriesContainer}>
+            <Text style={styles.categoriesText}>
+              <MaterialIcons name="category" size={18} color={COLORS.white} />{" "}
+              Categories
+            </Text>
+            <View style={styles.categoriesSearchInput}>
+              {/*custom search component*/}
+              <View style={styles.innerSearchContainer}>
+                <View style={styles.searchContentContainer}>
+                  <View style={styles.searchContentContent}>
+                    <TextInput
+                      value={value}
+                      onChangeText={(text) => searchBusiness(text)}
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      placeholder="Search"
+                      placeholderTextColor={COLORS.white}
+                      style={styles.inputBub}
+                      enablesReturnKeyAutomatically
+                      textAlign="center"
+                    />
+                  </View>
+                  <FontAwesome name="search" size={16} color={COLORS.purpleDark} style={{ top: Platform.OS === "ios" ? 0 : 5 }} />
+                </View>
+              </View>
+            </View>
+          </View>
+
+          {/*submit section*/}
+          <View style={styles.formButtonContainer}>
+            <Pressable
+              onPress={() => handleSubmit(onUpdateFilterPress())}
+              style={styles.buttonContainer}
+            >
+              <LinearGradient
+                start={{ x: 0, y: 0.5 }}
+                end={{ x: 1, y: 0.5 }}
+                colors={[COLORS.purpleDarker, COLORS.purpleDark, COLORS.purple]}
+                style={styles.buttonGradientContainer}
+              >
+                <Text style={styles.buttonTextItem}>Update</Text>
+              </LinearGradient>
+            </Pressable>
+          </View>
+        </View>
+      </View>
+    );
+  }
+
+  return (
+    <View style={styles.container}>
+      {renderHeaderSection()}
+      <View style={styles.headingHorizontalLine}></View>
+      {renderFormCollection()}
+    </View>
+  );
+};
+
+{
+  /* custom styles */
+}
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.black,
+    top: 0,
+    bottom: 0,
+  },
+  contentContainerFilter: {
+    zIndex: 99,
+    marginTop: Platform.OS === "ios" ? "10%" : "0%",
+  },
+  content: {
+    flexDirection: "row",
+    marginTop: 0,
+  },
+  headingContainer: {
+    flex: 1,
+    alignItems: "flex-start",
+    marginHorizontal: 22,
+    marginTop: Platform.OS === "ios" ? 40 : 30,
+  },
+  headingText: {
+    marginTop: "5%",
+    color: COLORS.white,
+    fontSize: 16,
+    fontFamily: "PoppinsBold",
+  },
+  headingHorizontalLine: {
+    marginVertical: "2.5%",
+    marginHorizontal: 22,
+    borderBottomColor: COLORS.gray,
+    borderBottomWidth: StyleSheet.hairlineWidth * 1,
+  },
+
+  //form section
+  formContainer: {
+    flex: 1,
+  },
+  formContent: {
+    marginHorizontal: 22,
+    flexDirection: "column",
+  },
+
+  //region section
+  formRegionContainer: {
+    marginTop: "2%",
+    flexDirection: "column",
+    zIndex: 99,
+  },
+  regionText: {
+    marginBottom: 10,
+    color: COLORS.white,
+    fontSize: 16,
+    fontFamily: "PoppinsBold",
+  },
+  regionSearchInput: {
+    marginBottom: "10%",
+  },
+
+  //distance section
+  formDistanceContainer: {
+    flexDirection: "column",
+    marginTop: "10%",
+  },
+  distanceText: {
+    marginBottom: 10,
+    color: COLORS.white,
+    fontSize: 16,
+    fontFamily: "PoppinsBold",
+  },
+  distanceSearchInput: {
+    flexDirection: "column",
+    marginTop: 10,
+  },
+
+  //categories section
+  formCategoriesContainer: {
+    flexDirection: "column",
+    marginTop: "6%",
+  },
+  categoriesText: {
+    color: COLORS.white,
+    fontSize: 16,
+    fontFamily: "PoppinsBold",
+  },
+  categoriesSearchInput: {
+    marginTop: "3%",
+  },
+  innerSearchContainer: {
+    marginTop: 10,
+    flexDirection: "column",
+    backgroundColor: COLORS.transparent,
+  },
+  searchContentContainer: {
+    flexDirection: "row",
+    paddingVertical: Platform.OS === "ios" ? 10 : 5,
+    paddingHorizontal: 20,
+    borderRadius: 20,
+    backgroundColor: COLORS.reechGray,
+    marginBottom: 10,
+  },
+  searchContentContent: {
+    justifyContent: "center",
+    alignItems: "center",
+    width: "93%",
+  },
+  inputBub: {
+    fontFamily: "PoppinsLight",
+    color: COLORS.white,
+    fontSize: 14,
+    width: "100%",
+    alignItems: "center",
+  },
+
+  //button section
+  formButtonContainer: {
+    flexDirection: "column",
+    marginTop: Platform.OS === "android" ? "40%" : "50%",
+    width: "100%",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  buttonContainer: {
+    width: "40%",
+    top: "60%",
+    bottom: 0,
+    marginHorizontal: 20,
+    zIndex: 10,
+  },
+  buttonGradientContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 30,
+    height: 45,
+    width: "100%",
+  },
+  buttonTextItem: {
+    color: COLORS.white,
+    fontSize: 14,
+    fontFamily: "PoppinsLight",
+  },
+});
+
+export default BubbleMateFilterScreen;

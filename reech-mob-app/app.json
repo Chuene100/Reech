@@ -1,0 +1,121 @@
+{
+  "expo": {
+    "name": "Reech",
+    "slug": "reech-mac-mob-app",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/app-iconAndroid.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/abb496b6-bc60-40f7-bb91-2a188177b859"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "bundleIdentifier": "com.reechdev.reechmacmobapp",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "allowsArbitraryLoads": true
+        }
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyD2GXRgeOSNpX7fnapvysE_IsIQRXcc2z4"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-iconAndroid.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.reechdev.reechmacmobapp",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "PACKAGE_USAGE_STATS",
+        "GET_TASKS",
+        "BIND_INPUT_METHOD",
+        "BIND_ACCESSIBILITY_SERVICE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_NETWORK_STATE", 
+        "ACCESS_WIFI_STATE", 
+        "ACTIVITY_RECOGNITION",
+        "BIND_GET_INSTALL_REFERRER_SERVICE", 
+        "CAMERA", 
+        "DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "INTERNET", 
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_GSERVICES", 
+        "READ_MEDIA_IMAGES", 
+        "READ_MEDIA_VIDEO", 
+        "RECEIVE_BOOT_COMPLETED", 
+        "RECORD_AUDIO", 
+        "SYSTEM_ALERT_WINDOW", 
+        "VIBRATE", 
+        "WAKE_LOCK"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD2GXRgeOSNpX7fnapvysE_IsIQRXcc2z4"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "abb496b6-bc60-40f7-bb91-2a188177b859"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "plugins": [
+      "./config_plugins/withAnimatedWebp",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Reech to use your location.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "reechdev"
+        }
+      ],
+      //"sentry-expo",
+      "./plugins/trust-local-certs.js"
+    ],
+    /*
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "reecheble-inc",
+            "project": "reech-mobile-app"
+          }
+        }
+      ]
+    },
+    */
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    }
+  }
+}

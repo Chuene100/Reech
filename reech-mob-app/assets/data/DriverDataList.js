@@ -1,0 +1,173 @@
+export const DriverDataList = [
+  {
+    id: 1,
+    driverImage: {
+      uri: "https://images.unsplash.com/photo-1594819043778-2382e859f56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    },
+    driverFirstName: "Angela",
+    driverLastName: "Rodgers",
+    driverBlurb:
+      "I have been a driver for 10 years in the Johannesburg North area. I am willing to take you anywhere you like.",
+    driverOverallRating: 8.6,
+    driverTotalTrips: 2,
+    driverTotalTripRating: 9.6,
+    driverCounterOffer: false,
+    driverCounterOfferValue: null,
+    driverRejected: false,
+    driverWaitlist: false,
+    driverAccepted: true,
+    driverOfferTime: 3600,
+  },
+  {
+    id: 2,
+    driverImage: {
+      uri: "https://images.unsplash.com/photo-1502767882403-636aee14f873?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    },
+    driverFirstName: "Sally",
+    driverLastName: "Jones",
+    driverBlurb:
+      "I have been a driver for 10 years in the Germiston South area. I am willing to take you anywhere you like.",
+    driverOverallRating: 9.6,
+    driverTotalTrips: 5,
+    driverTotalTripRating: 9.9,
+    driverCounterOffer: true,
+    driverCounterOfferValue: 290,
+    driverRejected: false,
+    driverWaitlist: false,
+    driverAccepted: false,
+    driverOfferTime: 3600,
+  },
+  {
+    id: 3,
+    driverImage: {
+      uri: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    },
+    driverFirstName: "Jabulani",
+    driverLastName: "Mhlongo",
+    driverBlurb:
+      "I have been a driver for 6 years in the Kempton Park South area. I am willing to take you anywhere you like.",
+    driverOverallRating: 5.3,
+    driverTotalTrips: 1,
+    driverTotalTripRating: 4.7,
+    driverCounterOffer: true,
+    driverCounterOfferValue: 250,
+    driverRejected: false,
+    driverWaitlist: false,
+    driverAccepted: false,
+    driverOfferTime: 3600,
+  },
+];
+
+//driver home screen dummy data
+export const driverDummyHomeScreenData = [
+  // {
+  //   id: 1,
+  //   verified: false,
+  //   careerAd: false,
+  //   isDriverData: true,
+  //   isBubbleMate: true,
+  //   oppCarChosen: "Sportscar",
+  //   oppCarImage:
+  //     "https://www.freepnglogos.com/uploads/car-png/car-png-large-images-40.png",
+  //   oppTripOffer: 2500,
+  //   oppCurrencySymbol: "R",
+  //   oppPickUpLocation: "Sandton City Mall Entrance 3",
+  //   oppDropOffLocation: "Norwood Mall",
+  //   oppFirstStopLocation: "Melrose Arch",
+  //   oppSecondStopLocation: "",
+  //   userPickedUpName: "Nthando Khumalo",
+  //   userPickedUpImage:
+  //     "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+
+  //   userPickedOverallRating: 6,
+  //   userPickedLastTrips: 6,
+  //   userTotalTrips: 1,
+  //   userTalkativePreference: "Talkative",
+  //   userTemperaturePreference: "Cool",
+  //   userMusicPreference: "Your music",
+  //   userTripLuggageMessage: "I have 4 bags with me.",
+  // },
+  // {
+  //   id: 2,
+  //   verified: false,
+  //   careerAd: false,
+  //   isDriverData: true,
+  //   isBubbleMate: false,
+  //   oppCarChosen: "Sedan",
+  //   oppCarImage:
+  //     "https://www.freepnglogos.com/uploads/honda-car-png/honda-car-honda-accord-hybrid-gets-more-power-improved-2.png",
+  //   oppTripOffer: 380,
+  //   oppCurrencySymbol: "R",
+  //   oppPickUpLocation: "1 Outeniqua Rd, Geluksdal, Springs",
+  //   oppDropOffLocation: "N17 Netcare Hospital",
+  //   oppFirstStopLocation: "Springs Gate Shopping Center",
+  //   oppSecondStopLocation: "Springs Avenues Shopping Complex",
+  //   userPickedUpName: "Kevin Van Der Merwe",
+  //   userPickedUpImage:
+  //     "https://images.unsplash.com/photo-1582015752624-e8b1c75e3711?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80",
+
+  //   userPickedOverallRating: 7,
+  //   userPickedLastTrips: 6.5,
+  //   userTotalTrips: 4,
+  //   userTalkativePreference: "Quiet",
+  //   userTemperaturePreference: "Warm",
+  //   userMusicPreference: "None",
+  //   userTripLuggageMessage:
+  //     "I will have no luggage with me when you pick me up, but I have added some stops so that I can buy my granny some essentials from the shops added to this trip. ",
+  // },
+  // {
+  //   id: 3,
+  //   verified: false,
+  //   careerAd: false,
+  //   isDriverData: true,
+  //   isBubbleMate: false,
+  //   oppCarChosen: "Minibus",
+  //   oppCarImage:
+  //     "https://comealiveshuttles.co.za/wp-content/uploads/2017/05/ToyotaQuantum.png",
+  //   oppTripOffer: 430,
+  //   oppCurrencySymbol: "R",
+  //   oppPickUpLocation: "84 Tsolo Street, Katlehong, Ekuruleni",
+  //   oppDropOffLocation: "Germiston High School",
+  //   oppFirstStopLocation: "",
+  //   oppSecondStopLocation: "",
+  //   userPickedUpName: "Lindokhule Sibanyoni",
+  //   userPickedUpImage:
+  //     "https://images.unsplash.com/photo-1526387780285-2d05a3a97f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1040&q=80",
+
+  //   userPickedOverallRating: 5.3,
+  //   userPickedLastTrips: 9,
+  //   userTotalTrips: 5,
+  //   userTalkativePreference: "Talkative",
+  //   userTemperaturePreference: "Cool",
+  //   userMusicPreference: "My music",
+  //   userTripLuggageMessage:
+  //     "I have 8 bags with me. They are namely a suitcase, schoolbags and some sport bags. I also have a few shoe boxes. ",
+  // },
+  // {
+  //   id: 4,
+  //   verified: false,
+  //   careerAd: false,
+  //   isDriverData: true,
+  //   isBubbleMate: true,
+  //   oppCarChosen: "Coupe",
+  //   oppCarImage:
+  //     "https://www.freepnglogos.com/uploads/bmw-png/blue-bmw-coupe-car-png-image-pngpix-5.png",
+  //   oppTripOffer: 780,
+  //   oppCurrencySymbol: "R",
+  //   oppPickUpLocation: "East Gate Mall Entrance 4",
+  //   oppDropOffLocation: "Fourways Mall Entrance 2",
+  //   oppFirstStopLocation: "MTN Taxi Rank",
+  //   oppSecondStopLocation: "Sandton Mall Entrance 1",
+  //   userPickedUpName: "Martha Naidoo",
+  //   userPickedUpImage:
+  //     "https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
+
+  //   userPickedOverallRating: 6.8,
+  //   userPickedLastTrips: 7,
+  //   userTotalTrips: 2,
+  //   userTalkativePreference: "Talkative",
+  //   userTemperaturePreference: "Cool",
+  //   userMusicPreference: "Your Music",
+  //   userTripLuggageMessage: "I have no bags with me",
+  // },
+];
